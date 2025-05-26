@@ -1,38 +1,33 @@
 theme: default # default || classic || dark
-organization: Pixel Genius Labs
-twitter: '@denkivvakame'
-title: Academic Project Page Template
-journal: "AAAA'24"
+organization: OMRON SINIC X
+title: Robust Assembly with Compliance-enabled Contact Formation and VLM-based Failure Recovery
+journal: "Humanoids'25"
 resources:
   paper: # https://openreview.net/
   arxiv: https://arxiv.org
-  code: https://github.com/denkiwakame/academic-project-template
-  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  demo: https://colab.research.google.com/
-  huggingface: https://huggingface.co/
+  code: https://github.com/omron-sinicx/tactile-self-recovery.git
 description: academic projectpage template that supports markdown and KaTeX
 
 image: https://denkiwakame.github.io/academic-project-template/teaser.jpg
 url: https://denkiwakame.github.io/academic-project-template
 speakerdeck: # speakerdeck slide ID
 authors:
-  - name: Wakame Denki*
-    affiliation: [1, 2]
-    url: http://denkiwakame.github.io/
+  - name: Mimo Shirasaka*
+    affiliation: [1]
+    # url: http://denkiwakame.github.io/
     position: intern
-  - name: Jane Doe
+  - name: Masashi Hamaya
+    affiliation: [1]
+    position: Researcher (Principal Investigator)
+    # url: https://thispersondoesnotexist.com/
+  - name: Cristian C. Beltran Hernandez
     affiliation: [1]
     position: Researcher
-    url: https://thispersondoesnotexist.com/
-  - name: John Smith
-    affiliation: [1]
-    position: Researcher
-    url: https://thispersondoesnotexist.com/
+    # url: https://thispersondoesnotexist.com/
 affiliations:
-  - Pixel Genius Labs
-  - NeuroNauts Academy
+  - OMRON SINIC X
 meta:
-  - '*work done while she was interning at Pixel Genius Lab.'
+  - '*work done while she was interning at OSX.'
 bibtex: >
   @article{doe2024superai,
     author    = {Jane Doe and John Smith},
