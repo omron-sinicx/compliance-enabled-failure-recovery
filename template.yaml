@@ -1,7 +1,7 @@
 theme: default # default || classic || dark
 organization: OMRON SINIC X
 title: Robust Assembly with Compliance-enabled Contact Formation and VLM-based Failure Recovery
-journal: "Humanoids'25"
+journal: "ICRA'26"
 resources:
   paper: # https://openreview.net/
   arxiv: https://arxiv.org
