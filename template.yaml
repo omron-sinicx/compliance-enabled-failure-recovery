@@ -7,12 +7,12 @@ resources:
   paper: https://arxiv.org/pdf/2509.17666
   poster:
   # code: https://github.com/omron-sinicx/multipolar
-  video: https://youtu.be/ohGzn6Ov_RQ?si=rL8mqJ9mqJtFZvaD
+  video: https://youtu.be/ohGzn6Ov_RQ?si=jv9EdthWvBX2Eny1
   # blog: https://medium.com/sinicx/multipolar-multi-source-policy-aggregation-for-transfer-reinforcement-learning-between-diverse-bc42a152b0f5
   # demo: https://colab.research.google.com/
   # huggingface: https://huggingface.co/
 description: By integrating VLM-guided failure recovery into compliance-enabled contact formation, we achieve robust and resilient soft robotic object insertion without force sensing or controller retraining.
-image: https://omron-sinicx.github.io/${compliance-enabled-failure-recovery}/teaser.pdf
+image: https://omron-sinicx.github.io/${compliance-enabled-failure-recovery}/teaser.png
 url: https://omron-sinicx.github.io/${compliance-enabled-failure-recovery}
 # speakerdeck: b7a0614c24014dcbbb121fbb9ed234cd
 authors:
@@ -55,7 +55,7 @@ header:
     sinic_curve.png
     #  bg_image: https://github.com/omron-sinicx/swarm-body/raw/main/images/teaser.jpg
 
-teaser: teaser.pdf
+teaser: teaser.png
 overview: |
   We present a method for robust and resilient object insertion under real-world uncertainty, combining a passively compliant soft wrist with automated failure recovery guided by a vision-language model.
   Object insertion remains challenging due to pose uncertainty and environmental variation. Our approach structures insertion as a sequence of contact formations that progressively constrain degrees of freedom, leveraging wrist compliance to absorb contact forces safely, without force sensing or high-frequency control.
