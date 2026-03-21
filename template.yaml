@@ -7,7 +7,7 @@ resources:
   paper: https://arxiv.org/pdf/2509.17666
   poster:
   # code: https://github.com/omron-sinicx/multipolar
-  video: https://youtu.be/ohGzn6Ov_RQ?si=jv9EdthWvBX2Eny1
+  # video: https://youtu.be/ohGzn6Ov_RQ?si=jv9EdthWvBX2Eny1
   # blog: https://medium.com/sinicx/multipolar-multi-source-policy-aggregation-for-transfer-reinforcement-learning-between-diverse-bc42a152b0f5
   # demo: https://colab.research.google.com/
   # huggingface: https://huggingface.co/
@@ -60,6 +60,11 @@ overview: |
   We present a method for robust and resilient object insertion under real-world uncertainty, combining a passively compliant soft wrist with automated failure recovery guided by a vision-language model.
   Object insertion remains challenging due to pose uncertainty and environmental variation. Our approach structures insertion as a sequence of contact formations that progressively constrain degrees of freedom, leveraging wrist compliance to absorb contact forces safely, without force sensing or high-frequency control.
   When a skill execution fails, a pre-trained VLM analyzes terminal poses and images, identifies the failure mode, and selects a recovery action. The compliant wrist permits safe, repeated recovery attempts, enabling the system to recover autonomously from grasp misalignments, hole-pose errors, friction increases, and unseen peg geometries.
+
+body:
+  - title: Video
+    text: |
+      <iframe style="aspect-ratio: 16/9; width: 100%; max-width: 900px; height: auto;" src="https://www.youtube.com/embed/ohGzn6Ov_RQ" title="Robust and Resilient Object Insertion with Compliance-Enabled Contact Formation and Failure Recovery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # body:
 #   - title: Media examples
